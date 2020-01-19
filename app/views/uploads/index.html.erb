@@ -1,0 +1,9 @@
+<h1>All uploads</h1>
+<div>
+	<% if @userfile != '' %>
+		<p><a target="_blank" href="<%= @userfile %>">User Uploaded File</a></p>
+	<% else %>
+		<p>A file has not been uploade for the user yet.</p>
+	<% end %>
+	<p><a href="/uploads/new">Upload New File</a></p>
+</div>

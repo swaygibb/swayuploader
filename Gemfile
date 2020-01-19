@@ -62,7 +62,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #extra
-gem 'bootstrap-sass'
+gem 'bootstrap'
+gem 'sassc-rails'
 gem 'gibbon'
 gem 'high_voltage'
 gem 'jquery-rails'
@@ -72,3 +73,4 @@ group :development do
 end
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'devise'
+gem "aws-sdk-s3", require: false
